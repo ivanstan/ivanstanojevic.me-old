@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: http://ivan-stanojevic.me/sitemap.xml
+
