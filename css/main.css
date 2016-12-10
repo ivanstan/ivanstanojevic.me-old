@@ -105,10 +105,23 @@ a {
     transform: translateY(+70%);
 }
 
-.other-section {
+.projects-section {
     height: 100%;
     text-align: center;
     background: #fff;
+}
+
+.projects-section .content {
+    height: 300px;
+    position: relative;
+    top: 50%;
+    transform: translateY(+70%);
+}
+
+.other-section {
+    height: 100%;
+    text-align: center;
+    background: #eee;
 }
 
 .other-section .content {
