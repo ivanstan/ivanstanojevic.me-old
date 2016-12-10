@@ -6,6 +6,14 @@ body {
     font-size: 13pt;
 }
 
+::-moz-selection {
+    background: transparent;
+}
+
+::selection {
+    background: transparent;
+}
+
 a {
     color: #2c3e50;
 }
