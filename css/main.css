@@ -3,7 +3,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'PT Sans Narrow', sans-serif !important;
-    font-size: 13pt;
+    font-size: 1em;
 }
 
 ::-moz-selection {
@@ -60,7 +60,6 @@ a {
 }
 
 .intro-section .content {
-    height: 300px;
     position: relative;
     top: 50%;
     transform: translateY(+60%);
@@ -68,20 +67,19 @@ a {
 
 .about-section {
     height: 100%;
-    text-align: center;
     background: #eee;
 }
 
-.about-section .content {
-    height: 300px;
-    position: relative;
-    top: 50%;
-    transform: translateY(+50%);
+section {
+    height: 100%;
+}
+
+section .container {
+    height: 100%;
+    text-align: center;
 }
 
 .services-section {
-    height: 100%;
-    text-align: center;
     background: #fff;
 }
 
@@ -93,7 +91,6 @@ a {
 }
 
 .contact-section {
-    height: 100%;
     text-align: center;
     background: #eee;
 }
@@ -106,7 +103,6 @@ a {
 }
 
 .projects-section {
-    height: 100%;
     text-align: center;
     background: #fff;
 }
@@ -119,13 +115,11 @@ a {
 }
 
 .other-section {
-    height: 100%;
     text-align: center;
     background: #eee;
 }
 
 .other-section .content {
-    height: 300px;
     position: relative;
     top: 50%;
     transform: translateY(+50%);
@@ -186,4 +180,10 @@ a {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.vertical-align {
+    top: 50%;
+    position: relative;
+    transform: translate(0, -50%);
 }
