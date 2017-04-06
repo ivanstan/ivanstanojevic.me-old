@@ -21,6 +21,10 @@ a {
   color: $primary-color;
 }
 
+p a {
+  color: #0275d8;
+}
+
 .navbar {
   background-color: transparentize($primary-color, .95);
 }
