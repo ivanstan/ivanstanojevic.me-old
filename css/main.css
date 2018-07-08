@@ -41,15 +41,16 @@ p a {
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out; }
-
   .top-nav-collapse {
     padding: 10px 0; } }
+
 .intro-section {
   background: url(../images/bg.png) no-repeat 0 0;
   background-size: cover; }
 
 section {
-  height: 100%; }
+  height: 100%;
+  overflow: hidden; }
   section .container {
     height: 100%;
     text-align: center; }
@@ -61,11 +62,11 @@ section {
   background: #fff; }
 
 .contact-item {
-  font-size: 100px;
-  color: #080b0e;
-  margin: 0 20px; }
+  font-size: 70pt;
+  color: #374858;
+  display: inline-block; }
   .contact-item:focus, .contact-item:hover {
-    color: black;
+    color: #374858;
     text-decoration: none; }
 
 .profile-picture {
@@ -107,9 +108,8 @@ section {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+
 .vertical-align {
   top: 50%;
   position: relative;
   transform: translate(0, -50%); }
-
-/*# sourceMappingURL=main.css.map */
