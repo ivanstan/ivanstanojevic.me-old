@@ -35,6 +35,17 @@ p a {
   background-color: #2c3e50;
   opacity: .8; }
 
+.nav-item {
+  font-size: 10pt; }
+  .nav-item .nav-link {
+    padding: .3rem 0.5rem; }
+
+@media (min-width: 576px) {
+  .nav-item {
+    font-size: 12pt; }
+    .nav-item .nav-link {
+      padding: .5rem 1rem; } }
+
 @media (min-width: 767px) {
   .navbar {
     padding: 20px 0;

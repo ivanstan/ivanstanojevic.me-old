@@ -46,6 +46,24 @@ p a {
   opacity: .8;
 }
 
+.nav-item {
+  .nav-link {
+    padding: .3rem 0.5rem;
+  }
+
+  font-size: 10pt;
+}
+
+@media (min-width: 576px) {
+  .nav-item {
+    .nav-link {
+      padding: .5rem 1rem;
+    }
+
+    font-size: 12pt;
+  }
+}
+
 @media(min-width:767px) {
   .navbar {
     padding: 20px 0;
