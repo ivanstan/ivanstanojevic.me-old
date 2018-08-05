@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "level": 0,
+  "name": "Ivan",
+  "mother": {
+    "id": 2,
+    "level": 1,
+    "name": "Vesna",
+    "father": {
+      "level": 2,
+      "name": "Bogoljub"
+    },
+    "mother": {
+      "level": 2,
+      "name": "Zorica"
+    }
+  },
+  "father": {
+    "level": 1,
+    "name": "Saša",
+    "father": {
+      "level": 2,
+      "name": "Svetomir"
+    },
+    "mother": {
+      "level": 2,
+      "name": "Radmila"
+    }
+  }
+}
