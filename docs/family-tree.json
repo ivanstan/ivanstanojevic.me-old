@@ -1,30 +1,54 @@
 {
-  "id": 1,
-  "level": 0,
-  "name": "Ivan",
-  "mother": {
-    "id": 2,
-    "level": 1,
-    "name": "Vesna",
-    "father": {
-      "level": 2,
-      "name": "Bogoljub"
+  "name": "Ivan Stanojević",
+  "id": "acd21329-2b99-5bdb-a080-ff15ad2fcaa6",
+  "_parents": [
+    {
+      "name": "Saša Stanojević",
+      "id": "56d25f0e-7c01-50f9-8dfe-9ed953ea5b33",
+      "_parents": [
+        {
+          "name": "Svetomir Stanojević",
+          "id": "efa251bb-13f7-583d-b5ec-c16f8fcd109f"
+        },
+        {
+          "name": "Radmila Marković",
+          "id": "6a2c6fee-7e8c-5d14-97a0-2fb79c20c89f"
+        }
+      ]
     },
-    "mother": {
-      "level": 2,
-      "name": "Zorica"
+    {
+      "name": "Vesna Stanojević",
+      "id": "051d725d-cfe4-5694-a330-28b3f3e8b9b1",
+      "_parents": [
+        {
+          "name": "Bogoljub Trifunović",
+          "id": "5b79bad1-aa95-5d49-9c4b-ccd681efdeed",
+          "_parents": [
+            {
+              "name": "Mihajlo Trifunović",
+              "id": "c97c5417-6662-5873-8e60-c416392417da"
+            },
+            {
+              "name": "Radmila Trifunović",
+              "id": "9801dafa-30bf-5bc8-b630-3e0718b4b875"
+            }
+          ]
+        },
+        {
+          "name": "Zorica Trifunović",
+          "id": "214f52e2-51d5-51f8-9b3a-93b41b49ec58",
+          "_parents": [
+            {
+              "name": "Milan Miljković",
+              "id": "dd8991ae-dd2a-5bfc-9755-0a5b9b392d68"
+            },
+            {
+              "name": "Dušanka Miljković",
+              "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a0"
+            }
+          ]
+        }
+      ]
     }
-  },
-  "father": {
-    "level": 1,
-    "name": "Saša",
-    "father": {
-      "level": 2,
-      "name": "Svetomir"
-    },
-    "mother": {
-      "level": 2,
-      "name": "Radmila"
-    }
-  }
+  ]
 }
