@@ -26,11 +26,31 @@
           "_parents": [
             {
               "name": "Mihajlo Trifunović",
-              "id": "c97c5417-6662-5873-8e60-c416392417da"
+              "id": "c97c5417-6662-5873-8e60-c416392417da",
+              "_parents": [
+                {
+                  "name": "Janko Trifunović",
+                  "id": "c97c5417-5662-5873-8e60-c413392417da"
+                },
+                {
+                  "name": "Zora Tifunović",
+                  "id": "c97c5417-6642-5873-8e60-c476392417da"
+                }
+              ]
             },
             {
               "name": "Radmila Trifunović",
-              "id": "9801dafa-30bf-5bc8-b630-3e0718b4b875"
+              "id": "9801dafa-30bf-5bc8-b630-3e0718b4b875",
+              "_parents": [
+                {
+                  "name": "Jezdimir",
+                  "id": "c97c5417-6662-5873-7e60-c413392417da"
+                },
+                {
+                  "name": "Stana",
+                  "id": "c97c5417-6662-5873-8e65-c476392417da"
+                }
+              ]
             }
           ]
         },
@@ -68,7 +88,13 @@
                 },
                 {
                   "name": "Darinka Miljković",
-                  "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a5"
+                  "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a5",
+                  "_parents": [
+                    {
+                      "name": "Milan Miljković",
+                      "id": "50cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a5"
+                    }
+                  ]
                 }
               ]
             }
