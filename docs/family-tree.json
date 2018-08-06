@@ -40,11 +40,37 @@
           "_parents": [
             {
               "name": "Milan Miljković",
-              "id": "dd8991ae-dd2a-5bfc-9755-0a5b9b392d68"
+              "id": "dd8991ae-dd2a-5bfc-9755-0a5b9b392d68",
+              "_parents": [
+                {
+                  "name": "Vladislav Miljković",
+                  "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2b4"
+                }
+              ]
             },
             {
               "name": "Dušanka Miljković",
-              "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a0"
+              "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a0",
+              "_parents": [
+                {
+                  "name": "Lazar Arsić",
+                  "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a1",
+                  "_parents": [
+                    {
+                      "name": "Stevan Arsić",
+                      "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a2"
+                    },
+                    {
+                      "name": "Stojana Arsić",
+                      "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a3"
+                    }
+                  ]
+                },
+                {
+                  "name": "Darinka Miljković",
+                  "id": "60cf0cac-f2d5-5c09-b1df-8a1ea7c4a2a5"
+                }
+              ]
             }
           ]
         }
