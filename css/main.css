@@ -17,6 +17,10 @@ a {
 p a {
   color: #0275d8; }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 .navbar {
   background-color: rgba(44, 62, 80, 0.95); }
 
