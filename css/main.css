@@ -128,3 +128,17 @@ section {
   top: 50%;
   position: relative;
   transform: translate(0, -50%); }
+
+.portolio {
+  background: #4F5F71;
+}
+
+.zoom-in {cursor: zoom-in;}
+.source-link {
+  margin-bottom: 20px;
+  color: #fff;
+  display: block;
+}
+.source-text {
+  color: #fff;
+}
