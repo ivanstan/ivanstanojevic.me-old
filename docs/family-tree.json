@@ -8,7 +8,23 @@
       "_parents": [
         {
           "name": "Svetomir Stanojević",
-          "id": "efa251bb-13f7-583d-b5ec-c16f8fcd109f"
+          "id": "efa251bb-13f7-583d-b5ec-c16f8fcd109a",
+          "_parents": [
+            {
+              "name": "Milan Stanojević",
+              "id": "6a2c6fee-7e8c-5d14-97a0-2fb79c20a89f",
+              "_parents": [
+                {
+                  "name": "Stoja",
+                  "id": "6a2c6fee-7e8c-5c14-97a0-2fb79c20a89f"
+                }
+              ]
+            },
+            {
+              "name": "Kosa Stanojević",
+              "id": "6a2c6fee-7e8c-5d14-97a0-2ab79c20c89f"
+            }
+          ]
         },
         {
           "name": "Radmila Marković",
