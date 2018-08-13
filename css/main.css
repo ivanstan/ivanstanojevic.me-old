@@ -142,3 +142,22 @@ section {
 .source-text {
   color: #fff;
 }
+
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.blockquote-footer {
+  text-align: right;
+  color: #fff;
+}
+
+.blockquote-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
