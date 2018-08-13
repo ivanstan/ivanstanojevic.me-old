@@ -161,3 +161,7 @@ section {
   color: #fff;
   text-decoration: underline;
 }
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #617487;
+}
