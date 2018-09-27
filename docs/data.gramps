@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
+"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.1/">
+  <header>
+    <created date="2018-09-03" version="5.0.0"/>
+    <researcher>
+    </researcher>
+  </header>
+  <people>
+    <person handle="_df28f8cf53ccc6d413456a73a3" change="1535967318" id="I0000">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Ivan</first>
+        <surname>Stanojević</surname>
+      </name>
+      <childof hlink="_df4915fee3e4f035b0995085e3d"/>
+    </person>
+    <person handle="_df4914076a96b1c04ef9e6b88ef" change="1535968028" id="I0001">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Vesna</first>
+        <surname>Stanojević</surname>
+      </name>
+      <childof hlink="_df8343e633d67b641ec41b8fb20"/>
+      <parentin hlink="_df4915fee3e4f035b0995085e3d"/>
+    </person>
+    <person handle="_df4914cf2c16199789f525d43de" change="1535967381" id="I0002">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Saša</first>
+        <surname>Stanojević</surname>
+      </name>
+      <parentin hlink="_df4915fee3e4f035b0995085e3d"/>
+    </person>
+    <person handle="_df4915737446af318a57a681db7" change="1535967332" id="I0003">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Stefan</first>
+        <surname>Stanojević</surname>
+      </name>
+      <childof hlink="_df4915fee3e4f035b0995085e3d"/>
+    </person>
+    <person handle="_df833a451906b4d44b5d3e0dff3" change="1535974847" id="I0004">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Bogoljub</first>
+        <surname>Trifunović</surname>
+      </name>
+      <childof hlink="_df838556d9231552f94af35a0e8"/>
+      <parentin hlink="_df8343e633d67b641ec41b8fb20"/>
+    </person>
+    <person handle="_df833acc08d6177d4519542f89" change="1535968008" id="I0005">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Violeta</first>
+        <surname>Trifunović</surname>
+      </name>
+    </person>
+    <person handle="_df833cac28741b5088fd57d0bd4" change="1535974583" id="I0009">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Zorica</first>
+        <surname>Trifunović</surname>
+      </name>
+      <childof hlink="_df8382b3a461861150280e96f02"/>
+      <parentin hlink="_df8343e633d67b641ec41b8fb20"/>
+    </person>
+    <person handle="_df833f0c4b779c45576900963c5" change="1535967456" id="I0010">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Svetomir</first>
+        <surname>Stanojević</surname>
+      </name>
+    </person>
+    <person handle="_df833f2a0527161d5f5bec54210" change="1535967486" id="I0011">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Radmila</first>
+        <surname>Stanojević</surname>
+      </name>
+    </person>
+    <person handle="_df8342748ba61b40062acad3c59" change="1535974437" id="I0012">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Iva</first>
+        <surname>Pajvančić</surname>
+      </name>
+      <childof hlink="_df8343685d57de809f2bd68dc0"/>
+      <parentin hlink="_df8381458c0428cd17ebc04f721"/>
+    </person>
+    <person handle="_df834375ee9a5730b86e65c3dd" change="1535967919" id="I0013">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Zoran</first>
+        <surname>Topalović</surname>
+      </name>
+      <parentin hlink="_df8343685d57de809f2bd68dc0"/>
+    </person>
+    <person handle="_df8343ba6332cef2b70a0125e04" change="1535968028" id="I0014">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Violeta</first>
+        <surname>Trifunović</surname>
+      </name>
+      <childof hlink="_df8343e633d67b641ec41b8fb20"/>
+      <parentin hlink="_df8343685d57de809f2bd68dc0"/>
+    </person>
+    <person handle="_df83817e1de988853234dcc60" change="1535974437" id="I0015">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Nikola</first>
+        <surname>Pajvančić</surname>
+      </name>
+      <parentin hlink="_df8381458c0428cd17ebc04f721"/>
+    </person>
+    <person handle="_df8381e62dc1cd038dd56511b95" change="1535974478" id="I0016">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Damjan</first>
+        <surname>Pajvančić</surname>
+      </name>
+      <childof hlink="_df8381458c0428cd17ebc04f721"/>
+    </person>
+    <person handle="_df83820472c301eedf91679f46d" change="1535974478" id="I0017">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Isidora</first>
+        <surname>Pajvančić</surname>
+      </name>
+      <childof hlink="_df8381458c0428cd17ebc04f721"/>
+    </person>
+    <person handle="_df838239b1c76db3d0226e28cdb" change="1535974583" id="I0018">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Dušanka</first>
+        <surname>Miljković</surname>
+      </name>
+      <parentin hlink="_df8382b3a461861150280e96f02"/>
+    </person>
+    <person handle="_df83825a27168fa0276aad5b2b8" change="1535974583" id="I0019">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Milan</first>
+        <surname>Miljković</surname>
+      </name>
+      <parentin hlink="_df8382b3a461861150280e96f02"/>
+    </person>
+    <person handle="_df8382f6a782ce0ba17ca67d1a5" change="1535974583" id="I0020">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Vukosava</first>
+        <surname>Miljković</surname>
+      </name>
+      <childof hlink="_df8382b3a461861150280e96f02"/>
+    </person>
+    <person handle="_df8383739d4602e86ad737a7d0" change="1535974634" id="I0021">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Branimir</first>
+        <surname>Brajović</surname>
+      </name>
+    </person>
+    <person handle="_df83839eae023242cf9e319cae3" change="1535974648" id="I0022">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Branko</first>
+        <surname>Brajović</surname>
+      </name>
+    </person>
+    <person handle="_df8383c0859232966f1e660c6e9" change="1535974660" id="I0023">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Zoran</first>
+        <surname>Timotić</surname>
+      </name>
+    </person>
+    <person handle="_df8383e58733dbc64c72ebbb62d" change="1535974680" id="I0024">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Dušan</first>
+        <surname>Timotić</surname>
+      </name>
+    </person>
+    <person handle="_df83840bf38727ebd894726899d" change="1535974702" id="I0025">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Slavica</first>
+        <surname>Timotić</surname>
+      </name>
+    </person>
+    <person handle="_df838443e4374cb47e849456bb2" change="1535974715" id="I0026">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Radica</first>
+        <surname>Brajović</surname>
+      </name>
+    </person>
+    <person handle="_df838468055c11dc46ca2a45d7" change="1535974847" id="I0027">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Mihajlo</first>
+        <surname>Trifunović</surname>
+      </name>
+      <parentin hlink="_df838556d9231552f94af35a0e8"/>
+    </person>
+    <person handle="_df83849d54b412088dd34bcdec9" change="1535974847" id="I0028">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Dušan</first>
+        <surname>Trifunović</surname>
+      </name>
+      <childof hlink="_df838556d9231552f94af35a0e8"/>
+    </person>
+  </people>
+  <families>
+    <family handle="_df4915fee3e4f035b0995085e3d" change="1534406265" id="F0001">
+      <rel type="Unknown"/>
+      <father hlink="_df4914cf2c16199789f525d43de"/>
+      <mother hlink="_df4914076a96b1c04ef9e6b88ef"/>
+      <childref hlink="_df28f8cf53ccc6d413456a73a3"/>
+      <childref hlink="_df4915737446af318a57a681db7"/>
+    </family>
+    <family handle="_df8343685d57de809f2bd68dc0" change="1535967946" id="F0002">
+      <rel type="Unknown"/>
+      <father hlink="_df834375ee9a5730b86e65c3dd"/>
+      <mother hlink="_df8343ba6332cef2b70a0125e04"/>
+      <childref hlink="_df8342748ba61b40062acad3c59"/>
+    </family>
+    <family handle="_df8343e633d67b641ec41b8fb20" change="1535968028" id="F0003">
+      <rel type="Unknown"/>
+      <father hlink="_df833a451906b4d44b5d3e0dff3"/>
+      <mother hlink="_df833cac28741b5088fd57d0bd4"/>
+      <childref hlink="_df8343ba6332cef2b70a0125e04"/>
+      <childref hlink="_df4914076a96b1c04ef9e6b88ef"/>
+    </family>
+    <family handle="_df8381458c0428cd17ebc04f721" change="1535974478" id="F0004">
+      <rel type="Unknown"/>
+      <father hlink="_df83817e1de988853234dcc60"/>
+      <mother hlink="_df8342748ba61b40062acad3c59"/>
+      <childref hlink="_df8381e62dc1cd038dd56511b95"/>
+      <childref hlink="_df83820472c301eedf91679f46d"/>
+    </family>
+    <family handle="_df8382b3a461861150280e96f02" change="1535974583" id="F0005">
+      <rel type="Unknown"/>
+      <father hlink="_df83825a27168fa0276aad5b2b8"/>
+      <mother hlink="_df838239b1c76db3d0226e28cdb"/>
+      <childref hlink="_df833cac28741b5088fd57d0bd4"/>
+      <childref hlink="_df8382f6a782ce0ba17ca67d1a5"/>
+    </family>
+    <family handle="_df838556d9231552f94af35a0e8" change="1535974847" id="F0006">
+      <rel type="Unknown"/>
+      <father hlink="_df838468055c11dc46ca2a45d7"/>
+      <childref hlink="_df833a451906b4d44b5d3e0dff3"/>
+      <childref hlink="_df83849d54b412088dd34bcdec9"/>
+    </family>
+  </families>
+</database>
