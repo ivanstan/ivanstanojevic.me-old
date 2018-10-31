@@ -64,16 +64,13 @@
                 <a class="page-scroll nav-item nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="page-scroll nav-item nav-link" href="#services">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="page-scroll nav-item nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
                 <a class="page-scroll nav-item nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="page-scroll nav-item nav-link" href="#other">Other</a>
+            </li>
+            <li class="nav-item">
+                <a class="page-scroll nav-item nav-link" href="#contact">Contact</a>
             </li>
         </ul>
     </div>
@@ -83,11 +80,13 @@
 <section id="intro" class="intro-section">
     <div class="container">
         <div class="vertical-align">
-            <img src="images/profile.png" class="mb-2" alt="Ivan Stanojević">
+            <div class="logo">
+                <img src="images/profile.png" class="mb-2" width="100%" alt="Ivan Stanojević">
+            </div>
             <h1 class="text-xs-center name mb-4">Ivan Stanojević</h1>
             <div class="slider">
                 <div>
-                    <blockquote class="blockquote">
+                    <blockquote>
                         <p class="mb-0"> ...is the most talented athlete in Byteout, always pushing the limits. With his
                             endurance he also
                             outperforms everybody in programming when he sits in front of his computer and gets "into
@@ -99,7 +98,7 @@
                     </blockquote>
                 </div>
                 <div>
-                    <blockquote class="blockquote">
+                    <blockquote>
                         <p class="mb-0">I can tell you have a wide skillset and from all of the examples I can think of
                             not one comes to mind in which I expected something from your side and it was not delivered
                             as expected! Aside from that I appreciate the very clear explanations as from my side there
@@ -111,7 +110,7 @@
                     </blockquote>
                 </div>
                 <div>
-                    <blockquote class="blockquote">
+                    <blockquote>
                         <p class="mb-0">From our working experience together I absolutely appreciate the open
                             communication and meticulously-sent updates!</p>
                         <footer class="blockquote-footer">Raluca Hreniuc, <a href="https://www.esome.com/">eSome
@@ -151,86 +150,22 @@
     </div>
 </section>
 
-<!-- Services Section -->
-<section id="services" class="even">
-    <div class="container">
-        <div class="vertical-align">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Skills</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="list-group">
-                        <li class="list-group-item">Strong OOP Skills</li>
-                        <li class="list-group-item">Angular2+</li>
-                        <li class="list-group-item">Typescript</li>
-                        <li class="list-group-item">Javascript</li>
-                        <li class="list-group-item">Bootstrap</li>
-                        <li class="list-group-item">CSS3</li>
-                        <li class="list-group-item">HTML5</li>
-                        <li class="list-group-item">jQuery</li>
-                        <li class="list-group-item">Agile Development</li>
-                    </ul>
-                </div>
-                <div class="col-md-6 d-none d-md-block">
-                    <ul class="list-group">
-                        <li class="list-group-item">Apache Solr</li>
-                        <li class="list-group-item">Apache Web Server</li>
-                        <li class="list-group-item">Ubuntu Server</li>
-                        <li class="list-group-item">Node.js</li>
-                        <li class="list-group-item">PHP</li>
-                        <li class="list-group-item">Drupal</li>
-                        <li class="list-group-item">Symfony Framework</li>
-                        <li class="list-group-item">GitLab CI</li>
-                        <li class="list-group-item">Doctrine ORM</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="odd">
-    <div class="container">
-        <div class="vertical-align">
-            <h2>Contact</h2>
-            <div class="row">
-                <div class="col-md-3">
-                    <a class="contact-item" target="_blank" href="mailto:ivanstan@gmail.com">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a class="contact-item" target="_blank" href="//www.linkedin.com/in/ivan-stanojevic-1405988">
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a class="contact-item" target="_blank" href="//github.com/ivanstan">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a class="contact-item" target="_blank" href="skype:ivanstan88?call">
-                        <i class="fa fa-skype" aria-hidden="true"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Projects Section -->
 <section id="projects" class="even">
     <div class="container">
 
         <div class="vertical-align">
             <h2>Projects</h2>
+
+            <div class="media mt-1">
+                <div class="media-body">
+                    <h3 class="media-heading">
+                        <a href="https://data.ivanstanojevic.me/" target="_blank"><i
+                                class="fa fa-external-link-square" aria-hidden="true"></i> OpenData</a>
+                    </h3>
+                    My own open data initiative.
+                </div>
+            </div>
 
             <div class="media mt-1">
                 <div class="media-body">
@@ -250,7 +185,7 @@
                         <a href="http://cafemusic.rs" target="_blank"><i
                                 class="fa fa-external-link-square" aria-hidden="true"></i> Caffe Music</a>
                     </h3>
-                    Coffie Shop web site with eCommerce created with Drupal.
+                    Coffee Shop web site with eCommerce created with Drupal.
                 </div>
             </div>
 
@@ -277,10 +212,31 @@
         <div class="vertical-align">
             <h2 class="mb-2">Certifications</h2>
 
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading">
+                        <a href="docs/Ivan Stanojević - Space Apps 2018 Lead Letter.pdf" target="_blank" rel="nofollow"><i
+                                class="fa fa-file-pdf-o" aria-hidden="true"></i> SpaceApps 2018 local lead
+                            recognition</a>
+                    </h3>
+                    Acknowledgement letter as local lead for NASA Space Apps Challenge 2018 in Belgrade, Serbia.
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading">
+                        <a href="docs/654286_1569494.pdf" target="_blank" rel="nofollow"><i
+                                class="fa fa-file-pdf-o" aria-hidden="true"></i> Basic Life Support - BLS</a>
+                    </h3>
+                    CPR (Adult / Child / Infant / Choking) AED / First-Aid / Bloodborne Pathogens
+                </div>
+            </div>
+
             <div class="media mb-1">
                 <div class="media-body">
                     <h3 class="media-heading">
-                        <a href="docs/EPFLxEE585xCertificate_edX.pdf" target="_blank"><i
+                        <a href="docs/EPFLxEE585xCertificate_edX.pdf" target="_blank" rel="nofollow"><i
                                 class="fa fa-file-pdf-o" aria-hidden="true"></i> Space Mission Design and
                             Operations</a>
                     </h3>
@@ -293,50 +249,30 @@
                 </div>
             </div>
 
-            <div class="media mb-1">
-                <div class="media-body">
-                    <h3 class="media-heading">
-                        <a href="docs/UC3MxBIA.pdf" target="_blank"><i class="fa fa-file-pdf-o"
-                                                                       aria-hidden="true"></i> The Conquest of
-                            Space: Space Exploration and
-                            Rocket Science</a>
-                    </h3>
-                    This course on aerospace engineering is a first step for those interested in learning more
-                    about
-                    the history of the space and the impact of space exploration on our daily lives. This course
-                    will provide you with technical and critical tools to continue your own research on the
-                    topic
-                    and navigate through the information that is available for the general public.
-                </div>
-            </div>
+            <!--<div class="media mb-1">-->
+                <!--<div class="media-body">-->
+                    <!--<h3 class="media-heading">-->
+                        <!--<a href="docs/UC3MxBIA.pdf" target="_blank" rel="nofollow"><i class="fa fa-file-pdf-o"-->
+                                                                                      <!--aria-hidden="true"></i> The-->
+                            <!--Conquest of-->
+                            <!--Space: Space Exploration and-->
+                            <!--Rocket Science</a>-->
+                    <!--</h3>-->
+                    <!--This course on aerospace engineering is a first step for those interested in learning more-->
+                    <!--about-->
+                    <!--the history of the space and the impact of space exploration on our daily lives. This course-->
+                    <!--will provide you with technical and critical tools to continue your own research on the-->
+                    <!--topic-->
+                    <!--and navigate through the information that is available for the general public.-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <h2 class="mt-2 mb-2">Publications</h2>
 
             <div class="media">
                 <div class="media-body">
                     <h3 class="media-heading">
-                        <a href="docs/StanojevicI_SpaceApps_LeadLetter.pdf" target="_blank"><i
-                                class="fa fa-file-pdf-o" aria-hidden="true"></i> SpaceApps 2017 local lead
-                            recognition</a>
-                    </h3>
-                    Acknowledgement letter as local lead for NASA Space Apps Challenge 2017 in Belgrade, Serbia.
-                </div>
-            </div>
-
-            <div class="media">
-                <div class="media-body">
-                    <h3 class="media-heading">
-                        <a href="docs/654286_1569494.pdf" target="_blank"><i
-                                class="fa fa-file-pdf-o" aria-hidden="true"></i> Basic Life Support - BLS</a>
-                    </h3>
-                    CPR (Adult / Child / Infant / Choking) AED / First-Aid / Bloodborne Pathogens
-                </div>
-            </div>
-
-            <h2 class="mt-2 mb-2 d-none d-md-block">Publications</h2>
-
-            <div class="media d-none d-md-block">
-                <div class="media-body">
-                    <h3 class="media-heading">
-                        <a href="docs/SpaceMissionPreliminaryAnalisys.pdf" target="_blank"><i
+                        <a href="docs/SpaceMissionPreliminaryAnalisys.pdf" target="_blank" rel="nofollow"><i
                                 class="fa fa-file-pdf-o" aria-hidden="true"></i> Space Mission
                             Preliminary
                             Analysis - Lunar Far Side Radio Communications</a>
@@ -353,11 +289,61 @@
     </div>
 </section>
 
+<!-- Contact Section -->
+<section id="contact">
+    <div class="vertical-align">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="contact">
+                        <li>
+                            <a class="contact-item" target="_blank" href="mailto:ivanstan@gmail.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i> ivanstan@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact-item" target="_blank"
+                               href="//www.linkedin.com/in/ivan-stanojevic-1405988">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact-item" target="_blank" href="//github.com/ivanstan">
+                                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact-item" target="_blank" href="skype:ivanstan88?call">
+                                <i class="fa fa-skype" aria-hidden="true"></i> ivanstan88
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form action="https://formspree.io/ivanstan@gmail.com" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" class="form-control" required
+                                   placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="_replyto" id="email" class="form-control" placeholder="Your email"
+                                   required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your message" required class="form-control"></textarea>
+                        </div>
+                        <input type="submit" class="btn" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <script src="js/main.js"></script>
 <script>
